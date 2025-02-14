@@ -24,9 +24,15 @@
 
 ### 1️⃣ Clone or Download the Repository  
 
+#### **Option 1: Clone via Git**  
 ```bash
 git clone https://github.com/yourusername/github-friends-extension.git
 ```
+
+#### **Option 2: Download ZIP**  
+- Go to the repository on GitHub.  
+- Click the **"Code"** button and select **"Download ZIP"**.  
+- Extract the ZIP file to your desired location.  
 
 ### 2️⃣ Load the Extension in Chrome  
 
