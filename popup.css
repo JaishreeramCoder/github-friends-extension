@@ -1,0 +1,137 @@
+/* Overall popup styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 320px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Remove default list styling */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Each starred user card */
+  .user-item {
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  .user-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Container for user info */
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header containing full name and nickname */
+  .user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .actual-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #24292e;
+  }
+  
+  .nickname {
+    font-size: 14px;
+    color: #586069;
+    margin-left: 6px;
+  }
+  
+  /* Row for pronoun and commit time */
+  .user-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #586069;
+  }
+  
+  .pronoun {
+    font-style: italic;
+  }
+  
+  .commit-time {
+    text-align: right;
+  }
+  
+  /* Actions: GitHub icon and unfriend button */
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  /* GitHub icon button styling */
+  .github-btn {
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff; /* White background so that the dark logo shows well */
+    background-image: url("github-logo.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center;
+    padding: 0;
+    border: 1px solid #d1d5da;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .github-btn:hover {
+    background-color: #96a0a791;
+  }
+  
+  /* Unfriend button styling */
+  .unfriend-btn {
+    background-color: #e53e3e;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .unfriend-btn:hover {
+    background-color: #c53030;
+  }
+  
+  .empty-message {
+    text-align: center;
+    color: #586069;
+    font-size: 16px;
+    padding: 20px;
+    border: 1px dashed #d1d5da;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+  }
+  
