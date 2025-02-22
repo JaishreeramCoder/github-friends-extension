@@ -4,7 +4,6 @@
       // Use a golden star (★) for friends and a hollow star (☆) for non-friends.
       starIcon.textContent = isStarred ? '⭐' : '☆';
     }
-  
     // Function to add (or update) the star button next to the user's full name.
     function addStarButton() {
       const vcardNames = document.querySelector('.vcard-names');
@@ -48,7 +47,8 @@
       // Check if this profile is already starred.
       chrome.storage.local.get({ starredUsers: [] }, function (result) {
         const starredUsers = result.starredUsers;
-        const isStarred = starredUsers.some((u) => u.profileUrl === profileUrl);
+        const isStarred = starredUsers.some((u) => u.nickname === nickname);
+        // alert(profileUrl, actualName, nickname, pronoun, isStarred);
         updateStarIcon(starIcon, isStarred);
       });
   
