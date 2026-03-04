@@ -3,8 +3,7 @@
     "name": "GitHub Friends",
     "version": "1.0",
     "permissions": [
-      "storage",
-      "tabs"
+      "storage"
     ],
     "host_permissions": [
       "https://api.github.com/*",
