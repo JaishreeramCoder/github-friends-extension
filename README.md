@@ -22,23 +22,20 @@
 
 ## 🛠 Installation  
 
-### 1️⃣ Clone or Download the Repository  
+### 1️⃣ Install from the Chrome Web Store
 
-#### **Option 1: Clone via Git**  
-```bash
-git clone https://github.com/yourusername/github-friends-extension.git
-```
+* Open the extension page on the Chrome Web Store:
+  [https://chromewebstore.google.com/detail/ecbdlffgbdbphkagnaokckabpdfnabmk?utm_source=item-share-cb](https://chromewebstore.google.com/detail/ecbdlffgbdbphkagnaokckabpdfnabmk?utm_source=item-share-cb)
 
-#### **Option 2: Download ZIP**  
-- Go to the repository on GitHub.  
-- Click the **"Code"** button and select **"Download ZIP"**.  
-- Extract the ZIP file to your desired location.  
+* Click the **"Add to Chrome"** button.
 
-### 2️⃣ Load the Extension in Chrome  
+* Confirm by clicking **"Add extension"** when prompted.
 
-- Open Chrome and navigate to `chrome://extensions/`.  
-- Enable **Developer mode** (toggle in the top right corner).  
-- Click on **Load unpacked** and select the directory where you downloaded the extension.  
+### 2️⃣ Verify the Extension
+
+* After installation, the extension will appear in your Chrome extensions list.
+* You can manage it anytime by visiting `chrome://extensions/`.
+  
 
 ### 3️⃣ Usage  
 
